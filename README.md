@@ -42,7 +42,16 @@ checker = PasswordStrengthChecker(
 result = checker.is_valid()
 print(result)
 ```
+## Explanation
 
+- **Password:** The password string you want to check.
+- **min_length:** The minimum length your password should have.
+- **min_uppercase:**  The minimum number of uppercase letters.
+- **min_lowercase:**  The minimum number of lowercase letters.
+- **min_digits:** The minimum number of digits.
+- **min_special_chars:**  The minimum number of special characters required.
+- **The is_valid()**  method will return:The strength of the password (e.g., "Very Strong", "Weak").
+Whether the password has been found in the RockYou leaked password dataset.
 
 ```bash
 pip install password-strength-checker-pro
