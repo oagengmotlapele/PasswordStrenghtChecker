@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
-Name: password_strength_checker
-Version: 0.1.0
+Name: password_strength_checker_pro
+Version: 1.0.0.2
 Summary: A password strength checker with leak detection
 Author: Oageng Motlapele
 Author-email: oagengmtlapele@gmail.com
