@@ -23,5 +23,26 @@
 
 Install the library from PyPI:
 
+## Usage 
+
 ```bash
-pip install password-strength-checker
+from password_strength_checker import PasswordStrengthChecker
+
+# Create an instance with your criteria
+checker = PasswordStrengthChecker(
+    password="MyStrongP@ssw0rd!",
+    min_length=8,
+    min_uppercase=1,
+    min_lowercase=1,
+    min_digits=1,
+    min_special_chars=1
+)
+
+# Evaluate the password
+result = checker.is_valid()
+print(result)
+```
+
+
+```bash
+pip install password-strength-checker-pro
