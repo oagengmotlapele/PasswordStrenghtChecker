@@ -12,7 +12,7 @@ setup(
     author="Oageng Motlapele",
     author_email="oagengmtlapele@gmail.com",
     description="A password strength checker with leak detection",
-    long_description=open('README.md').read(),
+    long_description=open('README.md).read(),
     long_description_content_type="text/markdown",
     classifiers=[
         "Programming Language :: Python :: 3",
