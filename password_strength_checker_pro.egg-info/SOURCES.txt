@@ -3,6 +3,7 @@ README.md
 setup.py
 password_strength_checker/__init__.py
 password_strength_checker/checker.py
+password_strength_checker/data/rockyou.txt.gz
 password_strength_checker_pro.egg-info/PKG-INFO
 password_strength_checker_pro.egg-info/SOURCES.txt
 password_strength_checker_pro.egg-info/dependency_links.txt

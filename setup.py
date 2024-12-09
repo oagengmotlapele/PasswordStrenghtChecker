@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="password_strength_checker_pro",
-    version="1.0.0.1",
+    version="1.0.0.2",
     packages=find_packages(),
     package_data={
         "password_strength_checker": ["data/rockyou.txt.gz"],  # Specify the file
