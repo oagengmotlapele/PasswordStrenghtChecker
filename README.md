@@ -1,20 +1,27 @@
 # Password Strength Checker
 
-An open-source library to check password strength based on custom criteria and verify if the password has been leaked in the RockYou dataset.
+**Password Strength Checker** is a Python library designed to help developers evaluate the strength of passwords and verify their presence in the RockYou leaked password dataset. The library provides flexibility with customizable criteria and can be easily integrated into Python projects.
+
+---
 
 ## Features
-- Verify password strength based on length, character types, and special characters.
-- Check if the password exists in the RockYou dataset.
 
-## Credits
+- **Password Strength Evaluation**:
+  - Customizable criteria, including:
+    - Minimum password length
+    - Number of uppercase and lowercase letters
+    - Number of digits and special characters
+  - Provides a detailed strength rating: *Very Weak*, *Weak*, *Medium*, *Strong*, and *Very Strong*.
+- **Leaked Password Detection**:
+  - Checks passwords against the RockYou dataset to identify potential vulnerabilities.
+- **Ease of Integration**:
+  - Lightweight and modular design for seamless integration into existing Python projects.
 
-This library was developed by **Oageng Motlapele** as part of an open-source initiative. Portions of the code and design were created with assistance from OpenAI's ChatGPT.
-
-If you use this library, feel free to credit the author and contribute to its development!
-
+---
 
 ## Installation
+
+Install the library from PyPI:
+
 ```bash
-pip install password_strength_checker
-
-
+pip install password-strength-checker
