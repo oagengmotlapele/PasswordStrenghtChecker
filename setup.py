@@ -14,7 +14,6 @@ setup(
     description="A password strength checker with leak detection",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/password_strength_checker",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
