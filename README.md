@@ -52,6 +52,9 @@ print(result)
 - **min_special_chars:**  The minimum number of special characters required.
 - **The is_valid()**  method will return:The strength of the password (e.g., "Very Strong", "Weak").
 Whether the password has been found in the RockYou leaked password dataset.
+## Documentation
+
+For detailed documentation, please refer to the [official documentation](https://app.readthedocs.org/projects/passwordstrenghtchecker/).
 
 ```bash
 pip install password-strength-checker-pro
