@@ -100,10 +100,10 @@ If you are interested in password security, check out these related projects:
 
 Contents:
 ---------
-- :ref:`Features`
-- :ref:`classes`
-- :ref:`methods`
-- :ref:`usage`
+* :ref:`Features`
+* :ref:`classes`
+* :ref:`methods`
+* :ref:`usage`
 
 Indices and Tables
 ------------------
