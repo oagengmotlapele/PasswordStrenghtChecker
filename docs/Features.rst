@@ -22,7 +22,7 @@ To install the Password Strength Checker, use `pip`:
 
 .. code-block:: bash
 
-   pip install password-strength-checker
+   pip install password-strength-checker-pro
 Attributes
 ----------
 
@@ -89,7 +89,7 @@ Documentation
 -------------
 The documentation for the Password Strength Checker is built using Sphinx. If you'd like to help improve the documentation, please refer to the `contributing guidelines`_.
 
-.. _contributing guidelines: https://github.com/your-repository-link/contributing
+.. _contributing guidelines: https://github.com/oagengmotlapele/PasswordStrenghtChecker/contributing
 
 Related Projects
 ----------------
