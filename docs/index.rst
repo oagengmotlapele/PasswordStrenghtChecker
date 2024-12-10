@@ -105,7 +105,6 @@ Contents:
 - :ref:`methods`
 - :ref:`usage`
 
-
 Indices and Tables
 ------------------
 * :ref:`genindex`
