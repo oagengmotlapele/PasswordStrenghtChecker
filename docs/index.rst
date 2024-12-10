@@ -100,7 +100,7 @@ If you are interested in password security, check out these related projects:
 
 Contents:
 ---------
-- :ref:`Features`
+- :ref:`Features.rst`
 - :ref:`classes`
 - :ref:`methods`
 - :ref:`usage`
