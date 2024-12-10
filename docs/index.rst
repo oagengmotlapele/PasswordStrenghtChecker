@@ -98,6 +98,14 @@ If you are interested in password security, check out these related projects:
 - **Password Leak Checker**: A tool to check passwords against various leaked databases.
 - **Password Strength Meter**: A browser-based password strength meter.
 
+Contents:
+---------
+- :ref:`Features`
+- :ref:`classes`
+- :ref:`methods`
+- :ref:`usage`
+
+
 Indices and Tables
 ------------------
 * :ref:`genindex`
