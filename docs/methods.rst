@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. include:: methods.rst
+
 
 Methods
 -------
@@ -19,3 +19,4 @@ Methods
 
 - **password_in_leaked_dataset**:
     Checks if the password is present in the RockYou dataset of leaked passwords. Returns `True` if the password is found in the dataset, `False` otherwise.
+.. include:: methods.rst
