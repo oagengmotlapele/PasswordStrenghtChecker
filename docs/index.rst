@@ -23,7 +23,31 @@ To install the Password Strength Checker, use `pip`:
 .. code-block:: bash
 
    pip install password-strength-checker
+Attributes
+----------
 
+- **password** (*str*): The password to be checked.
+- **min_length** (*int*): The minimum length required for the password. Default is 8.
+- **min_uppercase** (*int*): The minimum number of uppercase characters required. Default is 1.
+- **min_lowercase** (*int*): The minimum number of lowercase characters required. Default is 1.
+- **min_digits** (*int*): The minimum number of digits required. Default is 1.
+- **min_special_chars** (*int*): The minimum number of special characters required. Default is 1.
+- **rockyou_gz_file** (*str*): The filename of the RockYou password dataset. Default is 'rockyou.txt.gz'.
+
+Methods
+-------
+
+- **load_rockyou_dataset**:
+    Loads the RockYou dataset from a compressed `.gz` file. This method reads the dataset from the specified file and stores the passwords in a set for future lookup.
+
+- **is_valid**:
+    Checks whether the password meets the strength criteria and if it is found in the RockYou dataset. It returns a message indicating whether the password is valid or has been leaked.
+
+- **calculate_password_strength**:
+    Calculates the strength of the password based on predefined criteria: minimum length, uppercase letters, lowercase letters, digits, and special characters. Returns a strength level message based on the score.
+
+- **password_in_leaked_dataset**:
+    Checks if the password is present in the RockYou dataset of leaked passwords. Returns `True` if the password is found in the dataset, `False` otherwise.
 Usage
 -----
 Here’s an example of how to use the Password Strength Checker:
